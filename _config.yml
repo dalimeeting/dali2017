@@ -1,6 +1,6 @@
 # Site settings
 title: DALI 2017 - Data Learning and Inference
-permalink: "/:categories/:title.html"
+permalink: "/:title.html"
 # Include image banner file name below
 banner: costa-adeje.jpg 
 conference:
@@ -57,7 +57,7 @@ conference:
 previous_meeting:
   name: DALI 2016
   url: "http://dalimeeting.org/dali2016/"
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/dali2017" # the subpath of your site, e.g. /blog/
 url: "http://dalimeeting.org" # the base hostname & protocol for your site
 youtube:
   height: 315
