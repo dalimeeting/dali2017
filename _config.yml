@@ -1,6 +1,6 @@
 # Site settings
 title: DALI 2017 - Data Learning and Inference
-permalink: "/:categories/:title.html"
+permalink: "/:title.html"
 # Include image banner file name below
 banner: costa-adeje.jpg 
 
