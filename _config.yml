@@ -3,51 +3,31 @@ title: DALI 2017 - Data Learning and Inference
 permalink: "/:title.html"
 # Include image banner file name below
 banner: costa-adeje.jpg 
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: dali
+
+baseurl: "/dali2017" # the subpath of your site, e.g. /blog/
+url: "http://dalimeeting.org" # the base hostname & protocol for your site
+twitter_username: 
+github_username:  dalimeeting
+author:
+  name: DALI
+  
+ghub:
+  edit: true
+  repository: dali2017
 
 conference:
   draft: false
   hide_tentative: true
-  hosts:
-  general:
-  - name: Zoubin Ghaharamani
-    url: "http://mlg.eng.cam.ac.uk/zoubin/"
-    institute: University of Cambridge
-  - name: Bernhard Schölkopf
-    url: "http://ei.is.tuebingen.mpg.de/person/bs"
-    institute: MPI for Intelligent Systems Tübingen
-  workshop:
-  - name: Thomas Hofmann
-    url: "http://www.da.inf.ethz.ch/people/ThomasHofmann/"
-    institute: ETH Zurich
-  symposium:
-  - name: Neil Lawrence
-    url: "http://inverseprobability.com"
-    institute: Amazon and University of Sheffield
-  local:
-  - name: Pablo M. Olmos
-    url: "http://www.tsc.uc3m.es/~olmos/"
-    institute: "Universidad Carlos III de Madrid"
-  - name: Isabel Valera
-    url: "http://www.mpi-sws.org/~ivalera/"
-    institute: "Max Planck Institute for Software Systems"
-  assistants:
-  - name: Sabrina Nepozitek
-    url: "http://www.da.inf.ethz.ch/people/SabrinaNepozitek/"
-    institute: ETH Zurich
-  steering:
-  - name: Zoubin Ghaharamani
-    url: "http://mlg.eng.cam.ac.uk/zoubin/"
-    institute: University of Cambridge
-  - name: Thomas Hofmann
-    url: "http://www.da.inf.ethz.ch/people/ThomasHofmann/"
-    institute: ETH Zurich
-  - name: Neil Lawrence
-    url: "http://inverseprobability.com"
-    institute: Amazon and University of Sheffield
-  - name: Bernhard Schölkopf (chair)
-    url: "http://ei.is.tuebingen.mpg.de/person/bs"
-    institute: MPI Tübingen
-  name: DALI 2017 - Data Learning and Inference
+  instance: 2nd
+  name: Data Learning and Inference
+  short_name: DALI
+  full_name: Data Learning and Inference
   venue: H10 Costa Adeje Palace
   location: Tenerife, Canary Islands
   year: 2017
@@ -56,22 +36,69 @@ conference:
   - 2017-04-18
   - 2017-04-19
   - 2017-04-20
+  
+  hosts:
+  general:
+  - given: Zoubin
+    family: Ghaharamani
+    url: "http://mlg.eng.cam.ac.uk/zoubin/"
+    institute: University of Cambridge
+  - given: Bernhard
+    family: Schölkopf
+    url: "http://ei.is.tuebingen.mpg.de/person/bs"
+    institute: MPI for Intelligent Systems Tübingen
+  workshop:
+  - given: Thomas
+    family: Hofmann
+    url: "http://www.da.inf.ethz.ch/people/ThomasHofmann/"
+    institute: ETH Zurich
+  symposium:
+  - given: Neil D.
+    family: Lawrence
+    url: "http://inverseprobability.com"
+    institute: Amazon and University of Sheffield
+  local:
+  - given: Pablo M.
+    family: Olmos
+    url: "http://www.tsc.uc3m.es/~olmos/"
+    institute: "Universidad Carlos III de Madrid"
+  - given: Isabel Valera
+    url: "http://www.mpi-sws.org/~ivalera/"
+    institute: "Max Planck Institute for Software Systems"
+  assistants:
+  - given: Sabrina
+    family: Nepozitek
+    url: "http://www.da.inf.ethz.ch/people/SabrinaNepozitek/"
+    institute: ETH Zurich
+  steering:
+  - given: Zoubin
+    family: Ghaharamani
+    url: "http://mlg.eng.cam.ac.uk/zoubin/"
+    institute: University of Cambridge
+  - given: Thomas
+    family: Hofmann
+    url: "http://www.da.inf.ethz.ch/people/ThomasHofmann/"
+    institute: ETH Zurich
+  - given: Neil D.
+    family: Lawrence
+    url: "http://inverseprobability.com"
+    institute: Amazon and University of Sheffield
+  - given: Bernhard
+    family: Schölkopf (chair)
+    url: "http://ei.is.tuebingen.mpg.de/person/bs"
+    institute: MPI Tübingen
   sponsors:
   - name: Max-Planck-ETH Center for Learning Systems
     url: "http://learning-systems.org/"
 previous_meeting:
   name: DALI 2016
   url: "http://dalimeeting.org/dali2016/"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://dalimeeting.org" # the base hostname & protocol for your site
 youtube:
   height: 315
   width: 560
 twitter_username: 
 github_username:  dalimeeting
-github:
-  edit: true
-  repository: dalimeeting.github.io
+
 future: true
 
 # Build settings
